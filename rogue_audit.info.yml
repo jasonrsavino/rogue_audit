@@ -1,0 +1,5 @@
+name: Rogue Audit
+type: module
+description: Audits and optionally drops orphaned database tables.
+core_version_requirement: ^10 || ^11
+package: Maintenance

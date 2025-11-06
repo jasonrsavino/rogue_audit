@@ -1,0 +1,6 @@
+services:
+  rogue_audit.commands:
+    class: \Drupal\rogue_audit\Commands\RogueCommands
+    arguments: ['@rogue_audit.scanner']
+    tags:
+      - { name: drush.command }

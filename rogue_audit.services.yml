@@ -1,0 +1,4 @@
+services:
+  rogue_audit.scanner:
+    class: Drupal\rogue_audit\Service\RogueScanner
+    arguments: ['@entity_field.manager', '@module_handler', '@database']
