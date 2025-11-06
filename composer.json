@@ -1,5 +1,5 @@
 {
-    "name": "drupal/rogue_audit",
+    "name": "jaosnrsavino/rogue_audit",
     "type": "drupal-module",
     "description": "Audits and optionally drops orphaned database tables in Drupal installations.",
     "keywords": [
@@ -14,7 +14,7 @@
     "authors": [
         {
             "name": "Jason Savino",
-            "email": "jasonrsavino@gmail.com",
+            "email": "",
             "role": "Maintainer"
         }
     ],

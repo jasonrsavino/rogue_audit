@@ -31,14 +31,14 @@ Add this module to your project's `composer.json` file:
         }
     ],
     "require": {
-        "drupal/rogue_audit": "dev-main"
+        "jasonrsavino/rogue_audit": "dev-main"
     }
 }
 ```
 
 Then run:
 ```bash
-composer require drupal/rogue_audit:dev-main
+composer require jasonrsavino/rogue_audit:dev-main
 drush en rogue_audit
 ```
 
