@@ -1,0 +1,45 @@
+{
+    "name": "drupal/rogue_audit",
+    "type": "drupal-module",
+    "description": "Audits and optionally drops orphaned database tables in Drupal installations.",
+    "keywords": [
+        "drupal",
+        "database",
+        "maintenance",
+        "cleanup",
+        "orphaned tables",
+        "field storage"
+    ],
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Jason Savino",
+            "email": "jasonrsavino@gmail.com",
+            "role": "Maintainer"
+        }
+    ],
+    "homepage": "https://github.com/jasonrsavino/rogue_audit",
+    "support": {
+        "issues": "https://github.com/jasonrsavino/rogue_audit/issues",
+        "source": "https://github.com/jasonrsavino/rogue_audit"
+    },
+    "require": {
+        "php": ">=8.1",
+        "drupal/core": "^10 || ^11"
+    },
+    "require-dev": {
+        "drush/drush": "^11 || ^12"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "extra": {
+        "drupal": {
+            "version": "1.0.0",
+            "datestamp": "1730937600",
+            "security-coverage": {
+                "status": "not-covered",
+                "message": "Custom module not covered by Drupal security team"
+            }
+        }
+    }
+}
